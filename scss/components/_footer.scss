@@ -1,0 +1,43 @@
+.footer{
+    padding: 4rem 1rem;
+    h4{
+        color: white;
+    }
+    &__content{
+        @include grid(3, 2rem);
+        @include mediaQuery(){
+          @include grid(1,2rem);
+        }
+    }
+}
+
+
+.icons{
+    gap: 1rem;
+    li{
+        font-size: 1.3rem;
+        color: white;
+    }
+}
+
+
+.footer1{
+    padding: 5.3rem 1rem;
+    h4{
+        color: white;
+    }
+    &__content{
+        @include grid(3, 2rem);
+        @include mediaQuery(){
+          @include grid(1,2rem);
+        }
+    }
+}
+
+.icons{
+    gap: 1rem;
+    li{
+        font-size: 1.3rem;
+        color: white;
+    }
+}

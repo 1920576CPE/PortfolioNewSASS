@@ -1,0 +1,460 @@
+.border-botom-primary {
+  border-bottom: 10px solid $clr-primary;
+}
+
+.banner{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+    ;
+  padding-top: 6rem;
+  &__content{
+    h2{
+      color: $clr-white;
+      font-size: clamp(2rem, 3vw,3rem);
+      span{
+        color: $clr-primary;
+      }
+    }
+    p{
+      color: $clr-white;
+      font-size: clamp(0.8rem, 3vw,1rem);
+      span{
+        color: $clr-primary;
+      }
+    }
+  }
+  &__wrapper{
+    border-bottom: 2px solid $clr-white;
+    @include grid(2, 2rem);
+    @include mediaQuery(){
+      @include grid(1,2rem);
+    }
+  }
+  &__img{
+    @include mediaQuery(){
+      width: 80%;
+      height: auto;
+    }
+  }
+}
+
+
+
+.Info{
+  padding: 2rem;
+  h2{
+    color: $clr-white;
+    font-size: clamp(1rem, 3vw,1.5rem);
+  }
+  &__wrapper{
+    p{
+      color: $clr-white;
+      font-size: clamp(0.8rem, 3vw, 1rem);
+    }
+    border-bottom: 2px solid $clr-white;
+  }
+  &__content{
+    p{
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.Education{
+  h2{
+    color: $clr-white;
+    font-size: 1.5rem;
+  }
+  &__content{
+    @include grid(3, 1rem);
+    @include mediaQuery(){
+      @include grid(1,2rem);
+    }
+    .cards{
+      margin-bottom: 2rem;
+    }
+    border-bottom: 2px solid $clr-primary;
+  }
+}
+
+.achievement{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+    ;
+  padding: 3rem;
+  h2{
+    color: $clr-white;
+  }
+  &__content{
+    @include grid(4, 1rem);
+    @include mediaQuery(){
+      @include grid(1,2rem);
+    }
+    .achievements{
+      margin-bottom: 2rem;
+    }
+    border-bottom: 2px solid $clr-white;
+  }
+}
+
+.affiliations{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+    ;
+  padding: 1.5rem;
+  &__img{
+    @include mediaQuery(){
+      width: 80%;
+      height: auto;
+    }
+  }
+ 
+
+  &__content{
+    h2{
+      color: $clr-white;
+    }
+    h4{
+      color: $clr-white;
+    }
+    p{
+      color: $clr-white;
+
+    }
+    span{
+      color: $clr-primary;
+    }
+  }
+  &__wrapper{
+    border-bottom: 2px solid $clr-white;
+    @include grid(2, 2rem);
+    @include mediaQuery(){
+      @include grid(1,2rem);
+    }
+  }
+  }
+  
+
+.SkillHobby{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+  ;
+  padding: 4rem 0;
+  &__text {
+    h2{
+      color: $clr-white;
+      font-size: 2.8rem;
+    }
+    p{
+      color: $clr-white;
+      font-size: 1rem;
+    }
+    
+  }
+  &__wrapper{
+    @include grid(2, 2rem);
+    @include mediaQuery(){
+      @include grid(1,2rem);
+    }
+    border-bottom: 2px solid $clr-primary;
+  
+  }
+    
+  &__img{
+    @include mediaQuery(){
+        width: 80%;
+        height: auto;
+      }
+  }
+}
+
+.SkillsHobby__icons{
+  gap: 1rem;
+  color: $clr-white;
+  font-size: larger;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+.SkillsHobby__icons li a{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+ 
+
+
+.red{
+  color: red;
+}
+
+.orange{
+  color: #FF8C01;
+}
+
+.Programming{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+  ;
+  padding: 2rem;
+  h2{
+    color: $clr-white;
+  }
+  
+}
+
+.skills2__card{
+  text-align: center;
+  background-color: #1A1A1B;
+  border-radius: 1.8rem;
+  padding: 3rem 0;
+  width: 300px;
+  height: 600px;
+  position: relative;
+}
+
+.skills2__card h2{
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 1rem 0;
+}
+
+.skills2__card p{
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 30px;
+  margin: 1rem 0;
+}
+
+.skills2__button{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+}
+
+.skills2__button a{
+  background-color: $clr-primary;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  border-radius: 1.8rem;
+  font-size: 14px;
+  padding: 15px 20px;
+  text-align: center;
+  color: $clr-white;
+  text-transform: uppercase;
+}
+
+.skills2__cardwrapper{
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  
+}
+
+.tns-nav {
+  text-align: center;
+  margin-top: 3rem;
+
+}
+.tns-nav button{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  border: none;
+  margin: 0 4px;
+}
+
+.tns-nav .tns-nav-active{
+  background-color: red;
+}
+
+.tns-controls{
+  position: relative;
+}
+
+.tns-controls button:first-child{
+
+  top: 20rem;
+  position: absolute;
+  background: none;
+  border: none;
+  z-index: 1;
+  font-size:2rem;
+  color:#FF0000;
+}
+.tns-controls button:last-child{
+  top:20rem;
+  position: absolute;
+  right: 0;
+  background: none;
+  border: none;
+  z-index: 1;
+  font-size:2rem;
+  color:#FF0000;
+
+}
+
+.ProgrammingSkills{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+  padding: 3rem 0;
+  h2{
+    color: $clr-white;
+    font-size: 2.06rem;
+  }
+}
+
+.Projects{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+  ;
+  padding: 2rem;
+  &__title{
+    h1{
+      color: #ffffff;
+      font-size: 70px;
+    }
+  }
+  &__content{
+    padding: 2rem;
+    color: $clr-white;
+    background-color: $clr-gray;
+    width: 550px;
+    height: 390px;
+    border-radius: 1rem;
+  }
+  &__subtitle{
+    color: $clr-white;
+    font-size: 25px;
+  }
+}
+
+.Hobby{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+  ;
+  h2{
+    color: $clr-white;
+    font-size: 2.06rem;
+  }
+  padding: 3rem;
+  &__wrapper{
+    gap: 6rem;
+  }
+}
+
+.contact{
+  background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
+    ;
+  padding: 2rem;
+  &__content{
+    padding: 1rem;
+    h2{
+      font-size: 1.5rem;
+      color: $clr-white;
+    }
+    p{
+      color: $clr-white;
+    }
+  }
+}
+
+.Hobby1__wrapper{
+  @include grid(2, 2rem);
+    @include mediaQuery(){
+      @include grid(1,2rem);
+    }
+}
+.Hobby2__wrapper{
+  @include grid(2, 2rem);
+  grid-gap: 8rem;
+    @include mediaQuery(){
+      @include grid(1,2rem);
+      
+    }
+}
+
+.Hobby1__content{
+    padding: 1rem;
+    h2{
+      font-size: 1.5rem;
+      color: $clr-white;
+    }
+    p{
+      color: $clr-white;
+    }
+}
+
+.Hobby2__content{
+  padding: 1rem;
+  h2{
+    font-size: 1.5rem;
+    color: $clr-white;
+  }
+  p{
+    color: $clr-white;
+  }
+  a{
+    font-size: 1rem;
+  }
+}
+
+.MainContact{
+  padding: 3rem;
+ &__wrapper{
+  gap: 3rem;
+ }
+ &__content{
+  h2{
+    color: red;
+    font-size: 1.5rem;
+  }
+  p{
+    color: $clr-white;
+  }
+  li{
+    color: white;
+  }
+  li i{
+    color: red;
+  }
+ }
+ &__icons{
+  gap: 1rem;
+  li i{
+    color: white;
+    font-size: 1.3rem;
+  }
+ }
+ &__Input{
+  flex-direction: column;
+  gap: 1.3rem;
+  input{
+    border: none;
+    width: 581px;
+    height: 72px;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    &:nth-child(8){
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: start;
+    }
+    }
+    textarea{
+      border: none;
+      width: 100%;
+      height: 200px;
+      border-radius: 4px;
+      margin: 8px 0;
+      outline: none;
+      padding: 8px;
+      box-sizing: border-box;
+      text-align: start;
+      }
+ }
+}

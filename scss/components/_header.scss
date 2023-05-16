@@ -1,0 +1,20 @@
+.header{
+    padding: 1rem;
+    z-index: 999;
+   &__logo{
+    z-index: 1;
+    cursor: pointer;
+   }
+   nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+   }
+
+   nav ul{
+    gap: 2rem;
+   }
+
+    
+}
+

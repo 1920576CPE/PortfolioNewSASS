@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+   
+    <header class="header bg--dark "> 
+
+      <div class="container">
+
+        <div class="header__wrapper d--flex justify--between align--center ">
+          <div class="header__logo">
+            <img src="./img/Logo.png" alt="">
+          </div>
+          
+          <nav class="nav ">
+
+            <ul class="d--flex">
+                    <li><a href="#">| Home</a></li>
+                    <li><a href="#">| Skills</a></li>
+                    <li><a href="#">| Project</a></li>
+                    <li><a href="#">| Contacts</a></li>
+            </ul>
+
+          </nav>
+
+
+        </div>
+
+
+
+
+      </div>
+    </header>
+    <section class="banner ">
+      <div class="container">
+        <div class="banner__wrapper">
+
+          <div class="banner__content">
+            <h2 class = "mb--2"> I AM AJ ARELLANO <span>.</span></h2>
+            <p class = "mb--2">Student <span>/</span> Day Trader <span>/</span> PC Builder</p>
+            <p class = "text--justify mb--2">"Hello, my name is AJ Arellano, and I am a web developer and designer with 1 year of experience in the industry. I am passionate about creating beautiful, functional websites that are optimized for user experience and engagement. My expertise includes front-end development using HTML, CSS, and JavaScript, as well as back-end development using languages such as PHP and Python.</p>
+            
+            <a class="btn bg--primary" href="#">Explore More</a>
+          </div>
+          <div class="banner__picture align--center">
+            <img class="banner__img mb--6" src="img/Property 1=Default.png" alt="">
+          </div>
+          
+        </div>
+    </section>
+
+
+    <section class="achievement">
+      <div class="container">
+        <h2 class="mb--2">|| Achievements</h2>
+        <div class="achievement__content  align--center ">
+          <div class="achievements">
+            <img src="./img/Achievement.png" alt="">'
+            
+          </div>
+          <div class="achievements">
+            <img src="./img/Achievement 2.png" alt="">'
+            
+          </div>
+          <div class="achievements">
+            <img src="./img/Achievement 3.png" alt="">'
+           
+          </div>
+          <div class="achievements">
+            <img src="./img/Achievement 4.png" alt="">'
+           
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="affiliations">
+      <div class="container">
+
+        <div class="affiliations__wrapper  align--center">
+          <div class="affiliations__content">
+            <h2 class=" mb--2"> <span>||</span> Affiliations</h2>
+  
+            <h4 class="mb--1">Brahmans Institute of Computer Engineering</h4>
+  
+            <p class = "mb--2">University of Batangas formed a group in which Computer Engineering on all the Universities branches can gathered and compete with each other to further expand their skills in their field.</p>
+  
+            <h4 class="mb--1">Institute of Computer Engineers of the Phillipines</h4>
+  
+            <p class = "mb--4">The Institute of Computer Engineers of the Philippines is a non-profit professional organization of computer engineers in the Philippines. It is registered under the Securities and Exchange Commission as a non-stock and non-profit organization.</p>
+            
+          </div>
+          <img class=" affiliations__img mb--1" src="./img/LOGO 2.png" alt="">
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="contact ">
+      <div class="container">
+        <div class="contact__content  text--center">
+          <h2 class="mb--1">Be updated</h2>
+          <p class="mb--1">Follow Me and be connected</p>
+          <a class="btn bg--primary" href="#">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg--dark">
+      <div class="container">
+        <div class="footer__content text--center">
+          <div>
+            <ul class=" icons d--flex justify--center">
+              <li><i class="fa-brands fa-facebook  "></i></li>
+              <li><i class="fa-brands fa-youtube "></i></li>
+              <li><i class="fa-solid fa-envelope " ></i></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Brgy.Talaibon, Ibaan, Batangas</h4>
+          </div>
+          <div>
+            <h4>© ARELLANO 2023</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+
+    <script type="module">
+    
+      var slider = tns({
+        container: '.my-slider',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        controls: false,
+        navPosition: "bottom",
+        responsive: {
+        320: {
+          edgePadding: 20,
+          gutter: 20,
+          items: 1
+        },
+        760: {
+          gutter: 30,
+          items: 2
+        },
+        900: {
+          items: 3
+        }
+      }
+      });
+      </script>
+
+  </body>
+</html>
