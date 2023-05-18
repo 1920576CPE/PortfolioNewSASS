@@ -319,10 +319,25 @@
     width: 550px;
     height: 390px;
     border-radius: 1rem;
+    h3{
+      text-align: left;
+      color: $clr-primary;
+      font-size: 24px;
+    }
+    p{
+      padding: 3rem 0;
+      text-align: justify;
+      color: $clr-white;
+      font-size: 18px;
+    }
   }
   &__subtitle{
     color: $clr-white;
     font-size: 25px;
+  }
+  &__wrapper{
+    @include grid(2, 1rem);
+    padding: 2rem 0;
   }
 }
 

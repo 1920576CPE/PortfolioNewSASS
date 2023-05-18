@@ -414,9 +414,26 @@ a {
   height: 390px;
   border-radius: 1rem;
 }
+.Projects__content h3 {
+  text-align: left;
+  color: #ff0000;
+  font-size: 24px;
+}
+.Projects__content p {
+  padding: 3rem 0;
+  text-align: justify;
+  color: #f2f2f2;
+  font-size: 18px;
+}
 .Projects__subtitle {
   color: #f2f2f2;
   font-size: 25px;
+}
+.Projects__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 2rem 0;
 }
 
 .Hobby {
@@ -642,6 +659,27 @@ a {
 }
 .btn.bg--gray:hover {
   background: #25272a;
+}
+
+.bg--gray2 {
+  background-color: #1A1A1B;
+}
+
+.text--gray2 {
+  color: #1A1A1B;
+}
+
+.btn.bg--gray2 {
+  padding: 1rem 1rem;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 30px;
+  display: inline-block;
+  background: #1A1A1B;
+}
+.btn.bg--gray2:hover {
+  background: #010101;
 }
 
 .text--center {
