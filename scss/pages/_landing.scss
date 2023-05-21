@@ -144,10 +144,12 @@
     p{
       color: $clr-white;
       font-size: 1rem;
+      line-height: 24px;
     }
     
   }
   &__wrapper{
+    align-items: center;
     @include grid(2, 2rem);
     @include mediaQuery(){
       @include grid(1,2rem);
@@ -300,6 +302,9 @@
     color: $clr-white;
     font-size: 2.06rem;
   }
+  &_wrapper{
+    @include grid(3, 2rem);
+  }
 }
 
 .Projects{
@@ -334,10 +339,12 @@
   &__subtitle{
     color: $clr-white;
     font-size: 25px;
+    padding-top: 1rem; 
   }
   &__wrapper{
     @include grid(2, 1rem);
     padding: 2rem 0;
+    border-bottom: 2px solid $clr-primary;
   }
 }
 
@@ -346,11 +353,14 @@
   ;
   h2{
     color: $clr-white;
-    font-size: 2.06rem;
+    font-size: 30px;
   }
   padding: 3rem;
   &__wrapper{
     gap: 6rem;
+  }
+  &__box{
+    border-bottom: 2px solid $clr-primary;
   }
 }
 
@@ -388,11 +398,14 @@
 .Hobby1__content{
     padding: 1rem;
     h2{
-      font-size: 1.5rem;
+      font-size: 30px;
       color: $clr-white;
     }
     p{
       color: $clr-white;
+    }
+    a{
+      font-size: 1rem;
     }
 }
 

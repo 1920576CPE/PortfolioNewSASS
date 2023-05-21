@@ -30,6 +30,10 @@ a {
   z-index: 1;
   cursor: pointer;
 }
+.header__logo h1 {
+  color: #f2f2f2;
+  font-size: 18px;
+}
 .header nav ul li a {
   color: white;
   font-weight: bold;
@@ -245,8 +249,10 @@ a {
 .SkillHobby__text p {
   color: #f2f2f2;
   font-size: 1rem;
+  line-height: 24px;
 }
 .SkillHobby__wrapper {
+  align-items: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -397,6 +403,11 @@ a {
   color: #f2f2f2;
   font-size: 2.06rem;
 }
+.ProgrammingSkills_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
 
 .Projects {
   background: linear-gradient(180deg, rgba(9, 9, 16, 0.9) 99.98%, rgba(9, 9, 16, 0.65) 99.99%, rgba(9, 9, 16, 0.9) 100%, rgba(9, 9, 16, 0.9) 100%);
@@ -428,12 +439,14 @@ a {
 .Projects__subtitle {
   color: #f2f2f2;
   font-size: 25px;
+  padding-top: 1rem;
 }
 .Projects__wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   padding: 2rem 0;
+  border-bottom: 2px solid #ff0000;
 }
 
 .Hobby {
@@ -442,10 +455,13 @@ a {
 }
 .Hobby h2 {
   color: #f2f2f2;
-  font-size: 2.06rem;
+  font-size: 30px;
 }
 .Hobby__wrapper {
   gap: 6rem;
+}
+.Hobby__box {
+  border-bottom: 2px solid #ff0000;
 }
 
 .contact {
@@ -494,11 +510,14 @@ a {
   padding: 1rem;
 }
 .Hobby1__content h2 {
-  font-size: 1.5rem;
+  font-size: 30px;
   color: #f2f2f2;
 }
 .Hobby1__content p {
   color: #f2f2f2;
+}
+.Hobby1__content a {
+  font-size: 1rem;
 }
 
 .Hobby2__content {

@@ -20,8 +20,9 @@
       <div class="container">
 
         <div class="header__wrapper d--flex justify--between align--center ">
-          <div class="header__logo">
-            <img src="./img/Logo.png" alt="">
+          <div class="header__logo d--flex align--center">
+            <img src="<?php echo get_template_directory_uri();?>./img/Logo.png" alt="">
+            <h1>AJ ARELLANO <span class="red">.</span></h1>
           </div>
           
           <nav class="nav">

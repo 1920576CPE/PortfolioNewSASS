@@ -4,6 +4,10 @@
    &__logo{
     z-index: 1;
     cursor: pointer;
+    h1{
+        color: $clr-white;
+        font-size: 18px;
+    }
    }
    nav ul li a{
     color: white;
